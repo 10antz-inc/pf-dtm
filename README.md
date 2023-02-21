@@ -9,6 +9,9 @@ English | [简体中文](https://github.com/dtm-labs/dtm/blob/main/helper/README
 
 # Distributed Transactions Manager
 
+## Fork Reason
+Support for TLS connections for grpc client communications.
+
 ## What is DTM
 
 DTM is a distributed transaction framework which provides cross-service eventual data consistency. It provides saga, tcc, xa, 2-phase message, outbox, workflow patterns for a variety of application scenarios. It also supports multiple languages and multiple store engine to form up a transaction as following:
