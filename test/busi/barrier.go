@@ -10,8 +10,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/dtm-labs/dtm/client/dtmgrpc"
-	"github.com/dtm-labs/dtm/dtmutil"
+	"github.com/10antz-inc/pf-dtm/client/dtmgrpc"
+	"github.com/10antz-inc/pf-dtm/dtmutil"
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/mongo"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"

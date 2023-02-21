@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/dtmsvr/config"
-	"github.com/dtm-labs/dtm/dtmsvr/storage"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/registry"
+	"github.com/10antz-inc/pf-dtm/client/dtmcli/dtmimp"
+	"github.com/10antz-inc/pf-dtm/dtmsvr/config"
+	"github.com/10antz-inc/pf-dtm/dtmsvr/storage"
+	"github.com/10antz-inc/pf-dtm/dtmsvr/storage/registry"
 	"github.com/lithammer/shortuuid/v3"
 )
 

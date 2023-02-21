@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/test/busi"
+	"github.com/10antz-inc/pf-dtm/client/dtmcli"
+	"github.com/10antz-inc/pf-dtm/client/dtmcli/dtmimp"
+	"github.com/10antz-inc/pf-dtm/test/busi"
 	"github.com/stretchr/testify/assert"
 )
 

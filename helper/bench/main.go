@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/dtmsvr"
-	"github.com/dtm-labs/dtm/dtmsvr/config"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/registry"
-	"github.com/dtm-labs/dtm/helper/bench/svr"
-	"github.com/dtm-labs/dtm/test/busi"
+	"github.com/10antz-inc/pf-dtm/client/dtmcli"
+	"github.com/10antz-inc/pf-dtm/dtmsvr"
+	"github.com/10antz-inc/pf-dtm/dtmsvr/config"
+	"github.com/10antz-inc/pf-dtm/dtmsvr/storage/registry"
+	"github.com/10antz-inc/pf-dtm/helper/bench/svr"
+	"github.com/10antz-inc/pf-dtm/test/busi"
 	"github.com/dtm-labs/logger"
 )
 

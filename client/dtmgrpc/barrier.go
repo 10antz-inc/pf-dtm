@@ -9,8 +9,8 @@ package dtmgrpc
 import (
 	"context"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmgrpc/dtmgimp"
+	"github.com/10antz-inc/pf-dtm/client/dtmcli"
+	"github.com/10antz-inc/pf-dtm/client/dtmgrpc/dtmgimp"
 )
 
 // BarrierFromGrpc generate a Barrier from grpc context

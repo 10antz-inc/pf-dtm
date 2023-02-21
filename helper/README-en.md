@@ -1,11 +1,11 @@
 ![license](https://img.shields.io/github/license/dtm-labs/dtm)
-![Build Status](https://github.com/dtm-labs/dtm/actions/workflows/tests.yml/badge.svg?branch=main)
+![Build Status](https://github.com/10antz-inc/pf-dtm/actions/workflows/tests.yml/badge.svg?branch=main)
 [![codecov](https://codecov.io/gh/dtm-labs/dtm/branch/main/graph/badge.svg?token=UKKEYQLP3F)](https://codecov.io/gh/dtm-labs/dtm)
 [![Go Report Card](https://goreportcard.com/badge/github.com/dtm-labs/dtm)](https://goreportcard.com/report/github.com/dtm-labs/dtm)
 [![Go Reference](https://pkg.go.dev/badge/github.com/dtm-labs/dtm.svg)](https://pkg.go.dev/github.com/dtm-labs/dtm)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go#database)
 
-English | [简体中文](https://github.com/dtm-labs/dtm/blob/main/helper/README-cn.md)
+English | [简体中文](https://github.com/10antz-inc/pf-dtm/blob/main/helper/README-cn.md)
 
 # Distributed Transactions Manager
 
