@@ -14,8 +14,8 @@ import (
 	. "github.com/onsi/gomega"
 	bolt "go.etcd.io/bbolt"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/dtmsvr/storage"
+	"github.com/10antz-inc/pf-dtm/client/dtmcli/dtmimp"
+	"github.com/10antz-inc/pf-dtm/dtmsvr/storage"
 )
 
 func TestInitializeBuckets(t *testing.T) {

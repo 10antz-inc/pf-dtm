@@ -3,8 +3,8 @@ package busi
 import (
 	"fmt"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/dtmutil"
+	"github.com/10antz-inc/pf-dtm/client/dtmcli/dtmimp"
+	"github.com/10antz-inc/pf-dtm/dtmutil"
 	"github.com/dtm-labs/logger"
 	"github.com/gin-gonic/gin"
 )

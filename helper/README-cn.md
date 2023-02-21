@@ -1,11 +1,11 @@
 ![license](https://img.shields.io/github/license/dtm-labs/dtm)
-![Build Status](https://github.com/dtm-labs/dtm/actions/workflows/tests.yml/badge.svg?branch=main)
+![Build Status](https://github.com/10antz-inc/pf-dtm/actions/workflows/tests.yml/badge.svg?branch=main)
 [![codecov](https://codecov.io/gh/dtm-labs/dtm/branch/main/graph/badge.svg?token=UKKEYQLP3F)](https://codecov.io/gh/dtm-labs/dtm)
 [![Go Report Card](https://goreportcard.com/badge/github.com/dtm-labs/dtm)](https://goreportcard.com/report/github.com/dtm-labs/dtm)
 [![Go Reference](https://pkg.go.dev/badge/github.com/dtm-labs/dtm.svg)](https://pkg.go.dev/github.com/dtm-labs/dtm)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go#database)
 
-简体中文 | [English](https://github.com/dtm-labs/dtm/blob/main/helper/README-en.md)
+简体中文 | [English](https://github.com/10antz-inc/pf-dtm/blob/main/helper/README-en.md)
 
 # 跨语言分布式事务管理器
 
@@ -20,7 +20,7 @@ DTM是一款变革性的分布式事务框架，提供了傻瓜式的使用方�
 
 [更多](https://dtm.pub/other/using.html)
 
-如果贵公司也已使用 dtm，欢迎在 [登记地址](https://github.com/dtm-labs/dtm/issues/7) 登记，仅仅为了推广，不做其它用途。
+如果贵公司也已使用 dtm，欢迎在 [登记地址](https://github.com/10antz-inc/pf-dtm/issues/7) 登记，仅仅为了推广，不做其它用途。
 
 ## 特性
 * 支持多种语言：支持Go、Java、PHP、C#、Python、Nodejs 各种语言的SDK
@@ -122,4 +122,3 @@ go run main.go
 ![yedf2008](http://service.ivydad.com/cover/dubbingb6b5e2c0-2d2a-cd59-f7c5-c6b90aceb6f1.jpeg)
 
 欢迎使用[dtm](https://github.com/dtm-labs/dtm)，或者通过dtm学习实践分布式事务相关知识，欢迎star支持我们
-

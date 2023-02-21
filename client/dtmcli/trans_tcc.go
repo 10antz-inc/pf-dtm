@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
+	"github.com/10antz-inc/pf-dtm/client/dtmcli/dtmimp"
 	"github.com/go-resty/resty/v2"
 )
 

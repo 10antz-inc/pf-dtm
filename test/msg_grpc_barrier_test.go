@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/10antz-inc/pf-dtm/client/dtmcli/dtmimp"
+	"github.com/10antz-inc/pf-dtm/client/dtmgrpc"
+	"github.com/10antz-inc/pf-dtm/test/busi"
 	"github.com/agiledragon/gomonkey/v2"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/client/dtmgrpc"
-	"github.com/dtm-labs/dtm/test/busi"
 	"github.com/dtm-labs/logger"
 	"github.com/stretchr/testify/assert"
 )

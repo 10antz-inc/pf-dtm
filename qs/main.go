@@ -7,7 +7,7 @@
 package main
 
 import (
-	"github.com/dtm-labs/dtm/test/busi"
+	"github.com/10antz-inc/pf-dtm/test/busi"
 )
 
 func main() {

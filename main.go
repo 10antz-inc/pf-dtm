@@ -19,9 +19,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/dtm-labs/dtm/dtmsvr/config"
-	"github.com/dtm-labs/dtm/dtmsvr/entry"
-	_ "github.com/dtm-labs/dtm/dtmsvr/microservices"
+	"github.com/10antz-inc/pf-dtm/dtmsvr/config"
+	"github.com/10antz-inc/pf-dtm/dtmsvr/entry"
+	_ "github.com/10antz-inc/pf-dtm/dtmsvr/microservices"
 	"github.com/dtm-labs/logger"
 	"github.com/gin-gonic/gin"
 )

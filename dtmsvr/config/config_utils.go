@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
+	"github.com/10antz-inc/pf-dtm/client/dtmcli/dtmimp"
 )
 
 func loadFromEnv(prefix string, conf interface{}) {

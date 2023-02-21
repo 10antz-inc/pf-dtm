@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
+	"github.com/10antz-inc/pf-dtm/client/dtmcli/dtmimp"
 	"github.com/dtm-labs/dtmdriver"
 	"github.com/dtm-labs/logger"
 	"google.golang.org/grpc"

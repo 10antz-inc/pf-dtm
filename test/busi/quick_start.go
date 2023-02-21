@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
+	"github.com/10antz-inc/pf-dtm/client/dtmcli"
 	"github.com/gin-gonic/gin"
 	"github.com/lithammer/shortuuid/v3"
 )

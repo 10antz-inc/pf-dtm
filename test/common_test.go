@@ -3,11 +3,11 @@ package test
 import (
 	"testing"
 
-	"github.com/dtm-labs/dtm/client/dtmcli"
-	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
-	"github.com/dtm-labs/dtm/client/dtmgrpc"
-	"github.com/dtm-labs/dtm/dtmsvr/storage/sql"
-	"github.com/dtm-labs/dtm/dtmutil"
+	"github.com/10antz-inc/pf-dtm/client/dtmcli"
+	"github.com/10antz-inc/pf-dtm/client/dtmcli/dtmimp"
+	"github.com/10antz-inc/pf-dtm/client/dtmgrpc"
+	"github.com/10antz-inc/pf-dtm/dtmsvr/storage/sql"
+	"github.com/10antz-inc/pf-dtm/dtmutil"
 	"github.com/stretchr/testify/assert"
 )
 
