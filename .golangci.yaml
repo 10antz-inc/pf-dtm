@@ -1,5 +1,3 @@
 run:
   timeout: 3m
-  skip-dirs:
-    - boiler
-    - benchmark
+  skip-dirs: []
