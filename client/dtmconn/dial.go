@@ -17,7 +17,7 @@ var (
 )
 
 func init() {
-	insecureMode = strings.TrimSpace(os.Getenv("GRPC_INSECURE")) != "true"
+	insecureMode = strings.TrimSpace(os.Getenv("GRPC_INSECURE")) == "true"
 	if insecureMode {
 		transCreds = grpc.WithTransportCredentials(insecure.NewCredentials())
 		return
