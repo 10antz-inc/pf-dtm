@@ -15,6 +15,7 @@ import (
 	"time"
 
 	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
+	"github.com/dtm-labs/dtm/client/dtmconn"
 	"github.com/dtm-labs/dtm/client/dtmgrpc"
 	"github.com/dtm-labs/dtm/dtmutil"
 	"github.com/dtm-labs/logger"
@@ -24,7 +25,6 @@ import (
 	"github.com/dtm-labs/dtm/client/workflow"
 	grpc "google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials/insecure"
 	status "google.golang.org/grpc/status"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
 )
@@ -51,12 +51,12 @@ func retry(ctx context.Context, method string, req, reply interface{}, cc *grpc.
 
 // GrpcStartup for grpc
 func GrpcStartup() *grpc.Server {
-	conn, err := grpc.Dial(dtmutil.DefaultGrpcServer, grpc.WithTransportCredentials(insecure.NewCredentials()), grpc.WithUnaryInterceptor(dtmgimp.GrpcClientLog))
+	conn, err := dtmconn.Dial(dtmutil.DefaultGrpcServer, grpc.WithUnaryInterceptor(dtmgimp.GrpcClientLog))
 	logger.FatalIfError(err)
 	DtmClient = dtmgpb.NewDtmClient(conn)
 	logger.Debugf("dtm client inited")
 	// in github actions, the call is failed sometime, so add a retry
-	conn1, err := grpc.Dial(BusiGrpc, grpc.WithTransportCredentials(insecure.NewCredentials()), grpc.WithChainUnaryInterceptor(workflow.Interceptor, retry))
+	conn1, err := dtmconn.Dial(dtmutil.DefaultGrpcServer, grpc.WithChainUnaryInterceptor(workflow.Interceptor, retry))
 	logger.FatalIfError(err)
 	BusiCli = NewBusiClient(conn1)
 

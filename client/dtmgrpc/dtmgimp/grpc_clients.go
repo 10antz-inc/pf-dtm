@@ -11,11 +11,11 @@ import (
 	"sync"
 
 	"github.com/dtm-labs/dtm/client/dtmcli/dtmimp"
+	"github.com/dtm-labs/dtm/client/dtmconn"
 	"github.com/dtm-labs/dtm/client/dtmgrpc/dtmgpb"
 	"github.com/dtm-labs/dtmdriver"
 	"github.com/dtm-labs/logger"
 	grpc "google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
 )
 
 type rawCodec struct{}
@@ -61,7 +61,7 @@ func GetGrpcConn(grpcServer string, isRaw bool) (conn *grpc.ClientConn, rerr err
 		interceptors := append(ClientInterceptors, GrpcClientLog)
 		interceptors = append(interceptors, dtmdriver.Middlewares.Grpc...)
 		inOpt := grpc.WithChainUnaryInterceptor(interceptors...)
-		conn, rerr := grpc.Dial(grpcServer, inOpt, grpc.WithTransportCredentials(insecure.NewCredentials()), opts)
+		conn, rerr := dtmconn.Dial(grpcServer, inOpt, opts)
 		if rerr == nil {
 			clients.Store(grpcServer, conn)
 			v = conn
