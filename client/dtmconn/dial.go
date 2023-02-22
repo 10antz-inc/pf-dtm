@@ -41,6 +41,6 @@ func DialOptions(addr string, opts ...grpc.DialOption) []grpc.DialOption {
 		return opts
 	}
 
-	opts = append(opts, grpc.WithAuthority(addr))
+	opts = append(opts, transCreds, grpc.WithAuthority(addr))
 	return opts
 }
