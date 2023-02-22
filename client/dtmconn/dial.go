@@ -36,11 +36,11 @@ func Dial(addr string, opts ...grpc.DialOption) (*grpc.ClientConn, error) {
 }
 
 func DialOptions(addr string, opts ...grpc.DialOption) []grpc.DialOption {
+	opts = append(opts, transCreds)
 	if insecureMode {
-		opts = append(opts, transCreds)
 		return opts
 	}
 
-	opts = append(opts, transCreds, grpc.WithAuthority(addr))
+	opts = append(opts, grpc.WithAuthority(addr))
 	return opts
 }
